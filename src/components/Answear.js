@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { useHistory } from "react-router-dom";
 import styled, { css } from "styled-components";
-import { IconButton } from "@material-ui/core";
 import HomeIcon from "@material-ui/icons/Home";
 
 const Answear = props => {
@@ -80,14 +79,6 @@ const Answear = props => {
           <button className="backToHome" onClick={backToHome}>
             <HomeIcon className="backToHome-icon" />
           </button>
-
-          {/* <IconButton
-            color="primary"
-            aria-label="Home"
-            onClick={backToHome}
-            className="backToHome"
-          >
-          </IconButton> */}
         </div>
       </Score>
     </div>
